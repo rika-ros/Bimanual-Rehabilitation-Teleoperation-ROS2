@@ -63,8 +63,6 @@ git clone https://github.com/rika-ros/Bimanual-Rehabilitation-Teleoperation-ROS2
 cd Bimanual-Rehabilitation-Teleoperation-ROS2
 ```
 
-```
-
 2. Build and source the workspaces 
 
 ```
@@ -87,6 +85,7 @@ ros2 launch interbotix_xsarm_dual xsarm_dual.launch
 
 ```
 ros2 launch bimanual_pkg floating_box_launch.launch.py
+```
 
 ## Contact
 
