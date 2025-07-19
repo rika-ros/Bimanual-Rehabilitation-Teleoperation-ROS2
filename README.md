@@ -87,8 +87,6 @@ ros2 launch interbotix_xsarm_dual xsarm_dual.launch
 
 ```
 ros2 launch bimanual_pkg floating_box_launch.launch.py
-```
-
 
 ## Contact
 
