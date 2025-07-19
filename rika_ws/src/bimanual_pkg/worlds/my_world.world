@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="my_world">
+    
+    <!-- Ground Plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    
+    <!-- Sun -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    
+    <!-- Add some objects -->
+    <include>
+      <uri>model://cafe_table</uri>
+      <pose>2 0 0 0 0 0</pose>
+    </include>
+    
+    <include>
+      <uri>model://cardboard_box</uri>
+      <pose>-2 0 0 0 0 0</pose>
+    </include>
+    
+    <!-- Physics settings -->
+    <physics type="ode">
+      <real_time_update_rate>1000.0</real_time_update_rate>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+    </physics>
+    
+  </world>
+</sdf>

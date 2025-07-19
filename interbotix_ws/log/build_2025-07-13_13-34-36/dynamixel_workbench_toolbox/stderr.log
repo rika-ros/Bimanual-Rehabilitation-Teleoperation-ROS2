@@ -1,0 +1,3 @@
+[0mCMake Error: The source directory "/home/rika/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:348: cmake_check_build_system] Error 1

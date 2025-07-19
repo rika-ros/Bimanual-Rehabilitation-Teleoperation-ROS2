@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<robot name="floating_box" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <material name="black">
+    <color rgba="0.0 0.0 0.0 1.0" />
+  </material>
+  <material name="blue">
+    <color rgba="0.203125 0.23828125 0.28515625 1.0" />
+  </material>
+  <material name="green">
+    <color rgba="0.0 0.8 0.0 1.0" />
+  </material>
+  <material name="grey">
+    <color rgba="0.2 0.2 0.2 1.0" />
+  </material>
+  <material name="orange">
+    <color rgba="1.0 0.423529411765 0.0392156862745 1.0" />
+  </material>
+  <material name="brown">
+    <color rgba="0.870588235294 0.811764705882 0.764705882353 1.0" />
+  </material>
+  <material name="red">
+    <color rgba="0.80078125 0.12890625 0.1328125 1.0" />
+  </material>
+  <material name="white">
+    <color rgba="1.0 1.0 1.0 1.0" />
+  </material>
+  
+  <!--Gazebo Visuals-->
+  <gazebo reference="base_footprint">
+    <material>Gazebo/Green</material>
+  </gazebo>
+  <gazebo reference="base_link">
+    <material>Gazebo/Orange</material>
+  </gazebo>
+  <gazebo reference="left_contact">
+    <material>Gazebo/Brown</material>
+  </gazebo>
+  <gazebo reference="right_contact">
+    <material>Gazebo/Brown</material>
+  </gazebo>
+  <gazebo reference="left_contact_joint">
+    <provideFeedback>true</provideFeedback>
+  </gazebo>
+  <gazebo reference="right_contact_joint">
+    <provideFeedback>true</provideFeedback>
+  </gazebo>
+  
+  <!-- the model -->
+  <link name="base_link">
+    <inertial>
+      <mass value="1" />
+      <origin xyz="0 0 0" />
+      <inertia ixx="0.041667" ixy="0.0" ixz="0.0"
+        iyy="0.041667" iyz="0.0"
+        izz="0.041667" />
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.5 0.5 0.5" />
+      </geometry>
+      <material name="orange"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" />
+      <geometry>
+        <box size="0.5 0.5 0.5" />
+      </geometry>
+    </collision>
+  </link>
+  
+  <!-- the side box models -->
+  <joint name="left_contact_joint" type="fixed">
+    <origin xyz="-0.3 0 0" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="left_contact" />
+  </joint>
+  
+  <link name="left_contact">
+    <inertial>
+      <mass value="0.01" />
+      <origin xyz="0 0 0" />
+      <inertia ixx="0.0000167" ixy="0.0" ixz="0.0"
+        iyy="0.0000167" iyz="0.0"
+        izz="0.0000167" />
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0.1" /> 
+      </geometry>
+      <material name="brown"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" />
+      <geometry>
+        <box size="0.1 0.1 0.1" /> 
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="right_contact_joint" type="fixed">
+    <origin xyz="0.3 0 0" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="right_contact" />
+  </joint>
+  
+  <link name="right_contact">
+    <inertial>
+      <mass value="0.01" />
+      <origin xyz="0 0 0" />
+      <inertia ixx="0.0000167" ixy="0.0" ixz="0.0"
+        iyy="0.0000167" iyz="0.0"
+        izz="0.0000167" />
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0.1" /> 
+      </geometry>
+      <material name="brown"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" />
+      <geometry>
+        <box size="0.1 0.1 0.1" /> 
+      </geometry>
+    </collision>
+  </link>
+  
+  <gazebo>
+    <plugin name="gazebo_ros_force_left" filename="libgazebo_ros_force.so">
+      <force_frame>world</force_frame>
+      <alwaysOn>true</alwaysOn>
+      <update>100</update>
+      <updateRate>100.0</updateRate>
+      <link_name>left_contact</link_name>
+      <topicName>force_left</topicName>
+      <commandTopic>cmd_vel_left</commandTopic>
+      <odometryTopic>left_contact_odom</odometryTopic>
+      <odometryFrame>left_contact_odom</odometryFrame>
+      <odometryRate>100.0</odometryRate>
+      <robotBaseFrame>left_contact</robotBaseFrame>
+      <publishOdometryTf>true</publishOdometryTf>
+      <yaw_velocity_p_gain>500</yaw_velocity_p_gain>
+      <x_velocity_p_gain>1000</x_velocity_p_gain>
+      <y_velocity_p_gain>1000</y_velocity_p_gain>
+      <cmdVelTimeOut>0.25</cmdVelTimeOut>
+    </plugin>
+  </gazebo>
+  
+  <gazebo>
+    <plugin name="gazebo_ros_force_right" filename="libgazebo_ros_force.so">
+      <force_frame>world</force_frame>
+      <alwaysOn>true</alwaysOn>
+      <update>100</update>
+      <updateRate>100.0</updateRate>
+      <link_name>right_contact</link_name>
+      <topicName>force_right</topicName>
+      <commandTopic>cmd_vel_right</commandTopic>
+      <odometryRate>100.0</odometryRate>
+      <robotBaseFrame>right_contact</robotBaseFrame>
+      <publishOdometryTf>true</publishOdometryTf>
+      <yaw_velocity_p_gain>500</yaw_velocity_p_gain>
+      <x_velocity_p_gain>1000</x_velocity_p_gain>
+      <y_velocity_p_gain>1000</y_velocity_p_gain>
+      <cmdVelTimeOut>0.25</cmdVelTimeOut>
+    </plugin>
+  </gazebo> 
+  
+  <gazebo>
+    <plugin name="gazebo_ros_force_box" filename="libgazebo_ros_force.so">
+      <alwaysOn>true</alwaysOn>
+      <update>100</update>
+      <updateRate>100.0</updateRate>
+      <link_name>base_link</link_name>
+      <topicName>force_B_fromsides</topicName>
+      <commandTopic>cmd_vel_fromsides</commandTopic>
+      <odometryRate>100.0</odometryRate>
+      <robotBaseFrame>base_link</robotBaseFrame>
+      <publishOdometryTf>true</publishOdometryTf>
+      <yaw_velocity_p_gain>500</yaw_velocity_p_gain>
+      <x_velocity_p_gain>1000</x_velocity_p_gain>
+      <y_velocity_p_gain>1000</y_velocity_p_gain>
+      <cmdVelTimeOut>0.25</cmdVelTimeOut>
+    </plugin>
+  </gazebo>
+
+</robot>

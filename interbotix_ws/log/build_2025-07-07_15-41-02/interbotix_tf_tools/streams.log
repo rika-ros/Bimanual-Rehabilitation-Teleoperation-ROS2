@@ -1,0 +1,83 @@
+[0.180s] Invoking command in '/home/rika/interbotix_ws/build/interbotix_tf_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rika/interbotix_ws/install/interbotix_xs_modules:/home/rika/interbotix_ws/install/interbotix_perception_modules:/home/rika/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/rika/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rika/interbotix_ws/install/interbotix_tf_tools
+[0.224s] -- The C compiler identification is GNU 11.4.0
+[0.267s] -- The CXX compiler identification is GNU 11.4.0
+[0.272s] -- Detecting C compiler ABI info
+[0.328s] -- Detecting C compiler ABI info - done
+[0.335s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.335s] -- Detecting C compile features
+[0.336s] -- Detecting C compile features - done
+[0.338s] -- Detecting CXX compiler ABI info
+[0.405s] -- Detecting CXX compiler ABI info - done
+[0.411s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.411s] -- Detecting CXX compile features
+[0.412s] -- Detecting CXX compile features - done
+[0.414s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.561s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.626s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.653s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.690s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.694s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.703s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.716s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.730s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.764s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.793s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.797s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.879s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.903s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.940s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.948s] -- Looking for pthread.h
+[1.011s] -- Looking for pthread.h - found
+[1.011s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.078s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.079s] -- Found Threads: TRUE  
+[1.115s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.140s] -- Found tf2_msgs: 0.25.13 (/opt/ros/humble/share/tf2_msgs/cmake)
+[1.172s] -- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.212s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.285s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.286s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.287s] -- Configured cppcheck include dirs: /home/rika/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools/include
+[1.287s] -- Configured cppcheck exclude dirs and/or files: 
+[1.288s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.288s] -- Configured cpplint exclude dirs and/or files: 
+[1.289s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.290s] -- Added test 'lint_cmake' to check CMake code style
+[1.291s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.292s] -- Added test 'uncrustify' to check C / C++ code style
+[1.292s] -- Configured uncrustify additional arguments: 
+[1.293s] -- Added test 'xmllint' to check XML markup files
+[1.295s] -- Configuring done
+[1.306s] -- Generating done
+[1.310s] -- Build files have been written to: /home/rika/interbotix_ws/build/interbotix_tf_tools
+[1.319s] Invoked command in '/home/rika/interbotix_ws/build/interbotix_tf_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rika/interbotix_ws/install/interbotix_xs_modules:/home/rika/interbotix_ws/install/interbotix_perception_modules:/home/rika/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/rika/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rika/interbotix_ws/install/interbotix_tf_tools
+[1.320s] Invoking command in '/home/rika/interbotix_ws/build/interbotix_tf_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rika/interbotix_ws/install/interbotix_xs_modules:/home/rika/interbotix_ws/install/interbotix_perception_modules:/home/rika/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/rika/interbotix_ws/build/interbotix_tf_tools -- -j12 -l12
+[1.354s] [ 50%] [32mBuilding CXX object CMakeFiles/tf_rebroadcaster.dir/src/tf_rebroadcaster.cpp.o[0m
+[11.737s] [100%] [32m[1mLinking CXX shared library libtf_rebroadcaster.so[0m
+[12.110s] [100%] Built target tf_rebroadcaster
+[12.118s] Invoked command in '/home/rika/interbotix_ws/build/interbotix_tf_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rika/interbotix_ws/install/interbotix_xs_modules:/home/rika/interbotix_ws/install/interbotix_perception_modules:/home/rika/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/rika/interbotix_ws/build/interbotix_tf_tools -- -j12 -l12
+[12.119s] Invoking command in '/home/rika/interbotix_ws/build/interbotix_tf_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rika/interbotix_ws/install/interbotix_xs_modules:/home/rika/interbotix_ws/install/interbotix_perception_modules:/home/rika/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/rika/interbotix_ws/build/interbotix_tf_tools
+[12.127s] -- Install configuration: ""
+[12.128s] -- Execute custom install script
+[12.128s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_tf_tools/lib/libtf_rebroadcaster.so
+[12.134s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_tf_tools/lib/interbotix_tf_tools/static_trans_pub.py
+[12.142s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools//config/tf_rebroadcaster.yaml
+[12.149s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools//launch/static_transform_pub.launch.py
+[12.156s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools//launch/tf_rebroadcaster.launch.py
+[12.164s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_tf_tools/share/ament_index/resource_index/package_run_dependencies/interbotix_tf_tools
+[12.170s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_tf_tools/share/ament_index/resource_index/parent_prefix_path/interbotix_tf_tools
+[12.177s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/environment/ament_prefix_path.sh
+[12.183s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/environment/ament_prefix_path.dsv
+[12.191s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/environment/path.sh
+[12.198s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/environment/path.dsv
+[12.204s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/local_setup.bash
+[12.210s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/local_setup.sh
+[12.217s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/local_setup.zsh
+[12.225s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/local_setup.dsv
+[12.232s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/package.dsv
+[12.237s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_tf_tools/share/ament_index/resource_index/packages/interbotix_tf_tools
+[12.244s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_tf_tools/share/ament_index/resource_index/rclcpp_components/interbotix_tf_tools
+[12.250s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/cmake/interbotix_tf_toolsConfig.cmake
+[12.257s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/cmake/interbotix_tf_toolsConfig-version.cmake
+[12.263s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/package.xml
+[12.272s] Invoked command in '/home/rika/interbotix_ws/build/interbotix_tf_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rika/interbotix_ws/install/interbotix_xs_modules:/home/rika/interbotix_ws/install/interbotix_perception_modules:/home/rika/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/rika/interbotix_ws/build/interbotix_tf_tools

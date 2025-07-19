@@ -1,0 +1,55 @@
+[0.421s] Invoking command in '/home/rika/interbotix_ws/src/practice': PYTHONPATH=/home/rika/interbotix_ws/build/practice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/practice build --build-base /home/rika/interbotix_ws/build/practice/build install --record /home/rika/interbotix_ws/build/practice/install.log --single-version-externally-managed install_data
+[0.571s] running egg_info
+[0.572s] creating ../../build/practice/practice.egg-info
+[0.572s] writing ../../build/practice/practice.egg-info/PKG-INFO
+[0.572s] writing dependency_links to ../../build/practice/practice.egg-info/dependency_links.txt
+[0.572s] writing entry points to ../../build/practice/practice.egg-info/entry_points.txt
+[0.572s] writing requirements to ../../build/practice/practice.egg-info/requires.txt
+[0.572s] writing top-level names to ../../build/practice/practice.egg-info/top_level.txt
+[0.572s] writing manifest file '../../build/practice/practice.egg-info/SOURCES.txt'
+[0.573s] reading manifest file '../../build/practice/practice.egg-info/SOURCES.txt'
+[0.573s] writing manifest file '../../build/practice/practice.egg-info/SOURCES.txt'
+[0.573s] running build
+[0.574s] running build_py
+[0.574s] creating /home/rika/interbotix_ws/build/practice/build
+[0.574s] creating /home/rika/interbotix_ws/build/practice/build/lib
+[0.574s] creating /home/rika/interbotix_ws/build/practice/build/lib/practice
+[0.574s] copying practice/go_left.py -> /home/rika/interbotix_ws/build/practice/build/lib/practice
+[0.574s] copying practice/mirror.py -> /home/rika/interbotix_ws/build/practice/build/lib/practice
+[0.574s] copying practice/go_right2.py -> /home/rika/interbotix_ws/build/practice/build/lib/practice
+[0.574s] copying practice/go_opp.py -> /home/rika/interbotix_ws/build/practice/build/lib/practice
+[0.574s] copying practice/go_right.py -> /home/rika/interbotix_ws/build/practice/build/lib/practice
+[0.574s] copying practice/__init__.py -> /home/rika/interbotix_ws/build/practice/build/lib/practice
+[0.574s] copying practice/go_sleep.py -> /home/rika/interbotix_ws/build/practice/build/lib/practice
+[0.574s] copying practice/go_home.py -> /home/rika/interbotix_ws/build/practice/build/lib/practice
+[0.574s] running install
+[0.574s] running install_lib
+[0.575s] creating /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice
+[0.575s] copying /home/rika/interbotix_ws/build/practice/build/lib/practice/go_left.py -> /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice
+[0.575s] copying /home/rika/interbotix_ws/build/practice/build/lib/practice/mirror.py -> /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice
+[0.575s] copying /home/rika/interbotix_ws/build/practice/build/lib/practice/go_right2.py -> /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice
+[0.575s] copying /home/rika/interbotix_ws/build/practice/build/lib/practice/go_opp.py -> /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice
+[0.575s] copying /home/rika/interbotix_ws/build/practice/build/lib/practice/go_right.py -> /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice
+[0.575s] copying /home/rika/interbotix_ws/build/practice/build/lib/practice/__init__.py -> /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice
+[0.575s] copying /home/rika/interbotix_ws/build/practice/build/lib/practice/go_sleep.py -> /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice
+[0.575s] copying /home/rika/interbotix_ws/build/practice/build/lib/practice/go_home.py -> /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice
+[0.575s] byte-compiling /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice/go_left.py to go_left.cpython-310.pyc
+[0.576s] byte-compiling /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice/mirror.py to mirror.cpython-310.pyc
+[0.576s] byte-compiling /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice/go_right2.py to go_right2.cpython-310.pyc
+[0.576s] byte-compiling /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice/go_opp.py to go_opp.cpython-310.pyc
+[0.576s] byte-compiling /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice/go_right.py to go_right.cpython-310.pyc
+[0.576s] byte-compiling /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice/__init__.py to __init__.cpython-310.pyc
+[0.576s] byte-compiling /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice/go_sleep.py to go_sleep.cpython-310.pyc
+[0.577s] byte-compiling /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice/go_home.py to go_home.cpython-310.pyc
+[0.577s] running install_data
+[0.577s] creating /home/rika/interbotix_ws/install/practice/share/ament_index
+[0.577s] creating /home/rika/interbotix_ws/install/practice/share/ament_index/resource_index
+[0.577s] creating /home/rika/interbotix_ws/install/practice/share/ament_index/resource_index/packages
+[0.577s] copying resource/practice -> /home/rika/interbotix_ws/install/practice/share/ament_index/resource_index/packages
+[0.577s] copying package.xml -> /home/rika/interbotix_ws/install/practice/share/practice
+[0.577s] running install_egg_info
+[0.578s] Copying ../../build/practice/practice.egg-info to /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice-0.0.0-py3.10.egg-info
+[0.579s] running install_scripts
+[0.592s] Installing home script to /home/rika/interbotix_ws/install/practice/lib/practice
+[0.592s] writing list of installed files to '/home/rika/interbotix_ws/build/practice/install.log'
+[0.607s] Invoked command in '/home/rika/interbotix_ws/src/practice' returned '0': PYTHONPATH=/home/rika/interbotix_ws/build/practice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/practice build --build-base /home/rika/interbotix_ws/build/practice/build install --record /home/rika/interbotix_ws/build/practice/install.log --single-version-externally-managed install_data

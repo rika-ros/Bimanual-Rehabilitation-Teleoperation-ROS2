@@ -1,0 +1,554 @@
+[0.028s] Invoking command in '/home/rika/interbotix_ws/build/interbotix_xs_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rika/interbotix_ws/install/interbotix_xs_modules:/home/rika/interbotix_ws/install/interbotix_perception_modules:/home/rika/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/rika/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rika/interbotix_ws/install/interbotix_xs_msgs
+[0.200s] -- The C compiler identification is GNU 11.4.0
+[0.200s] -- The CXX compiler identification is GNU 11.4.0
+[0.200s] -- Detecting C compiler ABI info
+[0.200s] -- Detecting C compiler ABI info - done
+[0.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.200s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.201s] -- Detecting CXX compiler ABI info
+[0.212s] -- Detecting CXX compiler ABI info - done
+[0.218s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.218s] -- Detecting CXX compile features
+[0.219s] -- Detecting CXX compile features - done
+[0.220s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.221s] -- Found ament_cmake_core: 1.3.11 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.340s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.389s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.397s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.405s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.478s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.516s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.546s] -- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[0.946s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.204s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.470s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.487s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.488s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.511s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.511s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.511s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.511s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.529s] -- Found PythonExtra: .so  
+[1.597s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.608s] -- Configuring done
+[1.646s] -- Generating done
+[1.655s] -- Build files have been written to: /home/rika/interbotix_ws/build/interbotix_xs_msgs
+[1.662s] Invoked command in '/home/rika/interbotix_ws/build/interbotix_xs_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rika/interbotix_ws/install/interbotix_xs_modules:/home/rika/interbotix_ws/install/interbotix_perception_modules:/home/rika/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/rika/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rika/interbotix_ws/install/interbotix_xs_msgs
+[1.663s] Invoking command in '/home/rika/interbotix_ws/build/interbotix_xs_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rika/interbotix_ws/install/interbotix_xs_modules:/home/rika/interbotix_ws/install/interbotix_perception_modules:/home/rika/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/rika/interbotix_ws/build/interbotix_xs_msgs -- -j12 -l12
+[1.695s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.701s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.706s] [  1%] Built target ament_cmake_python_symlink_interbotix_xs_msgs
+[1.914s] running egg_info
+[1.915s] creating interbotix_xs_msgs.egg-info
+[1.915s] writing interbotix_xs_msgs.egg-info/PKG-INFO
+[1.915s] writing dependency_links to interbotix_xs_msgs.egg-info/dependency_links.txt
+[1.915s] writing top-level names to interbotix_xs_msgs.egg-info/top_level.txt
+[1.915s] writing manifest file 'interbotix_xs_msgs.egg-info/SOURCES.txt'
+[1.917s] reading manifest file 'interbotix_xs_msgs.egg-info/SOURCES.txt'
+[1.917s] writing manifest file 'interbotix_xs_msgs.egg-info/SOURCES.txt'
+[1.946s] [  1%] Built target ament_cmake_python_build_interbotix_xs_msgs_egg
+[5.186s] [  1%] Built target interbotix_xs_msgs__cpp
+[5.195s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.195s] [  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.195s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.609s] [  3%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/arm_joy__functions.c.o[0m
+[5.613s] [  4%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/hex_joy__functions.c.o[0m
+[5.627s] [  5%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/joint_group_command__functions.c.o[0m
+[5.627s] [  5%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/joint_temps__functions.c.o[0m
+[5.628s] [  6%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/joint_single_command__functions.c.o[0m
+[5.631s] [  7%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/joint_trajectory_command__functions.c.o[0m
+[5.639s] [  8%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/turret_joy__functions.c.o[0m
+[5.639s] [  9%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/msg/detail/locobot_joy__functions.c.o[0m
+[5.639s] [  9%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/srv/detail/motor_gains__functions.c.o[0m
+[5.695s] [ 10%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/srv/detail/operating_modes__functions.c.o[0m
+[5.715s] [ 11%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/srv/detail/reboot__functions.c.o[0m
+[5.720s] [ 12%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/srv/detail/register_values__functions.c.o[0m
+[5.723s] [ 12%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/srv/detail/robot_info__functions.c.o[0m
+[5.738s] [ 13%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_xs_msgs/srv/detail/torque_enable__functions.c.o[0m
+[5.828s] [ 14%] [32m[1mLinking C shared library libinterbotix_xs_msgs__rosidl_generator_c.so[0m
+[5.871s] [ 14%] Built target interbotix_xs_msgs__rosidl_generator_c
+[5.887s] [ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.887s] [ 16%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.887s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.639s] [ 18%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/hex_joy__type_support.cpp.o[0m
+[7.641s] [ 19%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/arm_joy__type_support.cpp.o[0m
+[7.644s] [ 20%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/joint_single_command__type_support.cpp.o[0m
+[7.653s] [ 20%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/joint_group_command__type_support.cpp.o[0m
+[7.656s] [ 21%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/joint_temps__type_support.cpp.o[0m
+[7.681s] [ 21%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/joint_trajectory_command__type_support.cpp.o[0m
+[7.681s] [ 22%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/locobot_joy__type_support.cpp.o[0m
+[7.985s] [ 23%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/srv/motor_gains__type_support.cpp.o[0m
+[7.986s] [ 24%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/msg/turret_joy__type_support.cpp.o[0m
+[8.000s] [ 24%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/srv/operating_modes__type_support.cpp.o[0m
+[8.015s] [ 25%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/srv/reboot__type_support.cpp.o[0m
+[8.036s] [ 26%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/srv/register_values__type_support.cpp.o[0m
+[8.037s] [ 27%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/arm_joy__type_support.cpp.o[0m
+[8.043s] [ 28%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/hex_joy__type_support.cpp.o[0m
+[8.092s] [ 29%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/joint_group_command__type_support.cpp.o[0m
+[8.286s] [ 30%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/srv/robot_info__type_support.cpp.o[0m
+[8.335s] [ 30%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/joint_single_command__type_support.cpp.o[0m
+[8.457s] [ 31%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/joint_temps__type_support.cpp.o[0m
+[8.465s] [ 31%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_xs_msgs/srv/torque_enable__type_support.cpp.o[0m
+[8.490s] [ 32%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/joint_trajectory_command__type_support.cpp.o[0m
+[8.540s] [ 33%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/locobot_joy__type_support.cpp.o[0m
+[8.585s] [ 33%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/msg/detail/turret_joy__type_support.cpp.o[0m
+[8.602s] [ 34%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/srv/detail/motor_gains__type_support.cpp.o[0m
+[8.607s] [ 35%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/arm_joy__type_support.cpp.o[0m
+[8.725s] [ 36%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/srv/detail/operating_modes__type_support.cpp.o[0m
+[8.739s] [ 36%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/arm_joy__type_support.cpp.o[0m
+[8.794s] [ 37%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/hex_joy__type_support.cpp.o[0m
+[8.840s] [ 38%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/joint_group_command__type_support.cpp.o[0m
+[8.873s] [ 39%] [32m[1mLinking CXX shared library libinterbotix_xs_msgs__rosidl_typesupport_cpp.so[0m
+[8.924s] [ 40%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/joint_single_command__type_support.cpp.o[0m
+[8.983s] [ 40%] Built target interbotix_xs_msgs__rosidl_typesupport_cpp
+[8.988s] [ 40%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/joint_temps__type_support.cpp.o[0m
+[9.008s] [ 41%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/srv/detail/reboot__type_support.cpp.o[0m
+[9.025s] [ 42%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/hex_joy__type_support.cpp.o[0m
+[9.044s] [ 43%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/joint_trajectory_command__type_support.cpp.o[0m
+[9.056s] [ 43%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/srv/detail/register_values__type_support.cpp.o[0m
+[9.097s] [ 44%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/srv/detail/robot_info__type_support.cpp.o[0m
+[9.107s] [ 44%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/joint_group_command__type_support.cpp.o[0m
+[9.116s] [ 45%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/locobot_joy__type_support.cpp.o[0m
+[9.191s] [ 45%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/srv/motor_gains__type_support.cpp.o[0m
+[9.191s] [ 46%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/msg/turret_joy__type_support.cpp.o[0m
+[9.223s] [ 47%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/joint_single_command__type_support.cpp.o[0m
+[9.254s] [ 48%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/joint_temps__type_support.cpp.o[0m
+[9.257s] [ 49%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/arm_joy__type_support_c.cpp.o[0m
+[9.259s] [ 50%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/srv/operating_modes__type_support.cpp.o[0m
+[9.265s] [ 51%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/joint_trajectory_command__type_support.cpp.o[0m
+[9.308s] [ 51%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/hex_joy__type_support_c.cpp.o[0m
+[9.336s] [ 52%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/srv/reboot__type_support.cpp.o[0m
+[9.379s] [ 53%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/srv/register_values__type_support.cpp.o[0m
+[9.421s] [ 54%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/arm_joy__type_support.c.o[0m
+[9.454s] [ 54%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/srv/robot_info__type_support.cpp.o[0m
+[9.493s] [ 55%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/hex_joy__type_support.c.o[0m
+[9.526s] [ 56%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_xs_msgs/srv/torque_enable__type_support.cpp.o[0m
+[9.548s] [ 57%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/joint_group_command__type_support_c.cpp.o[0m
+[9.576s] [ 57%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/joint_group_command__type_support.c.o[0m
+[9.603s] [ 58%] [32m[1mLinking CXX shared library libinterbotix_xs_msgs__rosidl_typesupport_c.so[0m
+[9.620s] [ 58%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/locobot_joy__type_support.cpp.o[0m
+[9.664s] [ 59%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/joint_single_command__type_support.c.o[0m
+[9.665s] [ 60%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_xs_msgs/srv/detail/torque_enable__type_support.cpp.o[0m
+[9.681s] [ 61%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/joint_single_command__type_support_c.cpp.o[0m
+[9.697s] [ 61%] Built target interbotix_xs_msgs__rosidl_typesupport_c
+[9.701s] [ 62%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/joint_temps__type_support.c.o[0m
+[9.715s] [ 63%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/joint_temps__type_support_c.cpp.o[0m
+[9.743s] [ 63%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/joint_trajectory_command__type_support_c.cpp.o[0m
+[9.769s] [ 64%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/locobot_joy__type_support_c.cpp.o[0m
+[9.785s] [ 65%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/joint_trajectory_command__type_support.c.o[0m
+[9.809s] [ 65%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/locobot_joy__type_support.c.o[0m
+[9.856s] [ 66%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/msg/detail/turret_joy__type_support.c.o[0m
+[9.860s] [ 67%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/srv/detail/dds_fastrtps/motor_gains__type_support.cpp.o[0m
+[9.871s] [ 68%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/msg/detail/dds_fastrtps/turret_joy__type_support.cpp.o[0m
+[9.922s] [ 69%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/srv/detail/motor_gains__type_support.c.o[0m
+[9.922s] [ 70%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/srv/detail/dds_fastrtps/operating_modes__type_support.cpp.o[0m
+[9.986s] [ 70%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/srv/detail/operating_modes__type_support.c.o[0m
+[10.014s] [ 71%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/msg/detail/turret_joy__type_support_c.cpp.o[0m
+[10.036s] [ 72%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/srv/detail/reboot__type_support.c.o[0m
+[10.048s] [ 73%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/srv/detail/motor_gains__type_support_c.cpp.o[0m
+[10.092s] [ 73%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/srv/detail/operating_modes__type_support_c.cpp.o[0m
+[10.131s] [ 74%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/srv/detail/register_values__type_support.c.o[0m
+[10.231s] [ 75%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/srv/detail/robot_info__type_support.c.o[0m
+[10.336s] [ 76%] [32m[1mLinking CXX shared library libinterbotix_xs_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[10.337s] [ 76%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_xs_msgs/srv/detail/torque_enable__type_support.c.o[0m
+[10.343s] [ 76%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/srv/detail/dds_fastrtps/reboot__type_support.cpp.o[0m
+[10.361s] [ 77%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/srv/detail/reboot__type_support_c.cpp.o[0m
+[10.379s] [ 78%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/srv/detail/dds_fastrtps/register_values__type_support.cpp.o[0m
+[10.388s] [ 79%] [32m[1mLinking C shared library libinterbotix_xs_msgs__rosidl_typesupport_introspection_c.so[0m
+[10.389s] [ 80%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/srv/detail/register_values__type_support_c.cpp.o[0m
+[10.399s] [ 81%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/srv/detail/dds_fastrtps/robot_info__type_support.cpp.o[0m
+[10.445s] [ 82%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/srv/detail/robot_info__type_support_c.cpp.o[0m
+[10.467s] [ 82%] Built target interbotix_xs_msgs__rosidl_typesupport_introspection_c
+[10.483s] [ 83%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_xs_msgs/srv/detail/dds_fastrtps/torque_enable__type_support.cpp.o[0m
+[10.504s] [ 83%] [32mBuilding CXX object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_xs_msgs/srv/detail/torque_enable__type_support_c.cpp.o[0m
+[10.530s] [ 83%] Built target interbotix_xs_msgs__rosidl_typesupport_introspection_cpp
+[10.933s] [ 84%] [32m[1mLinking CXX shared library libinterbotix_xs_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[10.995s] [ 84%] Built target interbotix_xs_msgs__rosidl_typesupport_fastrtps_c
+[11.034s] [ 84%] [32m[1mLinking CXX shared library libinterbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.097s] [ 84%] Built target interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp
+[11.110s] [ 84%] Built target interbotix_xs_msgs
+[11.126s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.196s] [ 85%] Built target interbotix_xs_msgs__py
+[14.217s] [ 88%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_locobot_joy_s.c.o[0m
+[14.218s] [ 88%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_joint_group_command_s.c.o[0m
+[14.218s] [ 88%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_joint_single_command_s.c.o[0m
+[14.218s] [ 88%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_joint_trajectory_command_s.c.o[0m
+[14.218s] [ 89%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/srv/_motor_gains_s.c.o[0m
+[14.218s] [ 90%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_arm_joy_s.c.o[0m
+[14.218s] [ 91%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_joint_temps_s.c.o[0m
+[14.218s] [ 91%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_hex_joy_s.c.o[0m
+[14.218s] [ 92%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/msg/_turret_joy_s.c.o[0m
+[14.220s] [ 92%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/srv/_operating_modes_s.c.o[0m
+[14.222s] [ 93%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/srv/_reboot_s.c.o[0m
+[14.222s] [ 94%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/srv/_register_values_s.c.o[0m
+[14.343s] [ 95%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/srv/_torque_enable_s.c.o[0m
+[14.344s] [ 95%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_xs_msgs/srv/_robot_info_s.c.o[0m
+[14.495s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_xs_msgs/libinterbotix_xs_msgs__rosidl_generator_py.so[0m
+[14.529s] [ 96%] Built target interbotix_xs_msgs__rosidl_generator_py
+[14.545s] [ 97%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interbotix_xs_msgs/_interbotix_xs_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.546s] [ 98%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interbotix_xs_msgs/_interbotix_xs_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[14.546s] [ 99%] [32mBuilding C object CMakeFiles/interbotix_xs_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interbotix_xs_msgs/_interbotix_xs_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.653s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.653s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.683s] [100%] Built target interbotix_xs_msgs__rosidl_typesupport_fastrtps_c__pyext
+[14.683s] [100%] Built target interbotix_xs_msgs__rosidl_typesupport_introspection_c__pyext
+[14.705s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.737s] [100%] Built target interbotix_xs_msgs__rosidl_typesupport_c__pyext
+[14.747s] Invoked command in '/home/rika/interbotix_ws/build/interbotix_xs_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rika/interbotix_ws/install/interbotix_xs_modules:/home/rika/interbotix_ws/install/interbotix_perception_modules:/home/rika/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/rika/interbotix_ws/build/interbotix_xs_msgs -- -j12 -l12
+[14.748s] Invoking command in '/home/rika/interbotix_ws/build/interbotix_xs_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rika/interbotix_ws/install/interbotix_xs_modules:/home/rika/interbotix_ws/install/interbotix_perception_modules:/home/rika/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/rika/interbotix_ws/build/interbotix_xs_msgs
+[14.754s] -- Install configuration: ""
+[14.755s] -- Execute custom install script
+[14.755s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/ament_index/resource_index/rosidl_interfaces/interbotix_xs_msgs
+[14.763s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/arm_joy.h
+[14.771s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__functions.h
+[14.778s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__struct.h
+[14.785s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__type_support.h
+[14.792s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__functions.h
+[14.799s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__struct.h
+[14.806s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__type_support.h
+[14.812s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__functions.h
+[14.819s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__struct.h
+[14.825s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__type_support.h
+[14.833s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__functions.h
+[14.840s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__struct.h
+[14.846s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__type_support.h
+[14.853s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__functions.h
+[14.859s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__struct.h
+[14.866s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__type_support.h
+[14.873s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__functions.h
+[14.879s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__struct.h
+[14.885s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__type_support.h
+[14.891s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__functions.h
+[14.899s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__struct.h
+[14.906s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__type_support.h
+[14.912s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__functions.h
+[14.918s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__struct.h
+[14.923s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__type_support.h
+[14.930s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/hex_joy.h
+[14.936s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_group_command.h
+[14.943s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_single_command.h
+[14.949s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_temps.h
+[14.955s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_trajectory_command.h
+[14.962s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/locobot_joy.h
+[14.968s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/rosidl_generator_c__visibility_control.h
+[14.973s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/turret_joy.h
+[14.979s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__functions.h
+[14.985s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__struct.h
+[14.991s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__type_support.h
+[14.997s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__functions.h
+[15.004s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__struct.h
+[15.010s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__type_support.h
+[15.017s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__functions.h
+[15.023s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__struct.h
+[15.029s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__type_support.h
+[15.036s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__functions.h
+[15.042s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__struct.h
+[15.048s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__type_support.h
+[15.054s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__functions.h
+[15.060s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__struct.h
+[15.067s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__type_support.h
+[15.073s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__functions.h
+[15.079s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__struct.h
+[15.086s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__type_support.h
+[15.092s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/motor_gains.h
+[15.099s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/operating_modes.h
+[15.105s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/reboot.h
+[15.111s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/register_values.h
+[15.117s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/robot_info.h
+[15.123s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/torque_enable.h
+[15.129s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/library_path.sh
+[15.136s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/library_path.dsv
+[15.143s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__rosidl_typesupport_fastrtps_c.h
+[15.149s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__rosidl_typesupport_fastrtps_c.h
+[15.155s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__rosidl_typesupport_fastrtps_c.h
+[15.161s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__rosidl_typesupport_fastrtps_c.h
+[15.167s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__rosidl_typesupport_fastrtps_c.h
+[15.173s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__rosidl_typesupport_fastrtps_c.h
+[15.179s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__rosidl_typesupport_fastrtps_c.h
+[15.186s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__rosidl_typesupport_fastrtps_c.h
+[15.191s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.197s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__rosidl_typesupport_fastrtps_c.h
+[15.204s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__rosidl_typesupport_fastrtps_c.h
+[15.210s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__rosidl_typesupport_fastrtps_c.h
+[15.217s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__rosidl_typesupport_fastrtps_c.h
+[15.223s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__rosidl_typesupport_fastrtps_c.h
+[15.228s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__rosidl_typesupport_fastrtps_c.h
+[15.235s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__rosidl_typesupport_introspection_c.h
+[15.241s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__rosidl_typesupport_introspection_c.h
+[15.247s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__rosidl_typesupport_introspection_c.h
+[15.253s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__rosidl_typesupport_introspection_c.h
+[15.260s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__rosidl_typesupport_introspection_c.h
+[15.266s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__rosidl_typesupport_introspection_c.h
+[15.272s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__rosidl_typesupport_introspection_c.h
+[15.278s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__rosidl_typesupport_introspection_c.h
+[15.285s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.291s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__rosidl_typesupport_introspection_c.h
+[15.298s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__rosidl_typesupport_introspection_c.h
+[15.304s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__rosidl_typesupport_introspection_c.h
+[15.311s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__rosidl_typesupport_introspection_c.h
+[15.317s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__rosidl_typesupport_introspection_c.h
+[15.323s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__rosidl_typesupport_introspection_c.h
+[15.330s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/arm_joy.hpp
+[15.336s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__builder.hpp
+[15.342s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__struct.hpp
+[15.348s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__traits.hpp
+[15.354s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__type_support.hpp
+[15.360s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__builder.hpp
+[15.366s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__struct.hpp
+[15.373s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__traits.hpp
+[15.380s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__type_support.hpp
+[15.386s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__builder.hpp
+[15.392s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__struct.hpp
+[15.399s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__traits.hpp
+[15.405s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__type_support.hpp
+[15.411s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__builder.hpp
+[15.417s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__struct.hpp
+[15.423s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__traits.hpp
+[15.429s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__type_support.hpp
+[15.435s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__builder.hpp
+[15.442s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__struct.hpp
+[15.447s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__traits.hpp
+[15.453s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__type_support.hpp
+[15.459s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__builder.hpp
+[15.465s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__struct.hpp
+[15.471s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__traits.hpp
+[15.477s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__type_support.hpp
+[15.483s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__builder.hpp
+[15.489s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__struct.hpp
+[15.495s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__traits.hpp
+[15.502s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__type_support.hpp
+[15.509s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__builder.hpp
+[15.515s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__struct.hpp
+[15.520s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__traits.hpp
+[15.526s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__type_support.hpp
+[15.533s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/hex_joy.hpp
+[15.539s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_group_command.hpp
+[15.545s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_single_command.hpp
+[15.551s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_temps.hpp
+[15.556s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_trajectory_command.hpp
+[15.562s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/locobot_joy.hpp
+[15.569s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[15.574s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/turret_joy.hpp
+[15.580s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__builder.hpp
+[15.586s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__struct.hpp
+[15.592s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__traits.hpp
+[15.598s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__type_support.hpp
+[15.605s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__builder.hpp
+[15.611s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__struct.hpp
+[15.617s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__traits.hpp
+[15.623s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__type_support.hpp
+[15.629s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__builder.hpp
+[15.638s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__struct.hpp
+[15.644s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__traits.hpp
+[15.651s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__type_support.hpp
+[15.657s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__builder.hpp
+[15.664s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__struct.hpp
+[15.671s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__traits.hpp
+[15.678s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__type_support.hpp
+[15.685s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__builder.hpp
+[15.691s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__struct.hpp
+[15.700s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__traits.hpp
+[15.707s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__type_support.hpp
+[15.712s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__builder.hpp
+[15.719s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__struct.hpp
+[15.726s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__traits.hpp
+[15.732s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__type_support.hpp
+[15.739s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/motor_gains.hpp
+[15.745s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/operating_modes.hpp
+[15.751s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/reboot.hpp
+[15.758s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/register_values.hpp
+[15.764s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/robot_info.hpp
+[15.771s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/torque_enable.hpp
+[15.778s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__rosidl_typesupport_fastrtps_cpp.hpp
+[15.785s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__rosidl_typesupport_fastrtps_cpp.hpp
+[15.791s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__rosidl_typesupport_fastrtps_cpp.hpp
+[15.797s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__rosidl_typesupport_fastrtps_cpp.hpp
+[15.804s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__rosidl_typesupport_fastrtps_cpp.hpp
+[15.810s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__rosidl_typesupport_fastrtps_cpp.hpp
+[15.816s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__rosidl_typesupport_fastrtps_cpp.hpp
+[15.823s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__rosidl_typesupport_fastrtps_cpp.hpp
+[15.828s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.835s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__rosidl_typesupport_fastrtps_cpp.hpp
+[15.841s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__rosidl_typesupport_fastrtps_cpp.hpp
+[15.847s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__rosidl_typesupport_fastrtps_cpp.hpp
+[15.853s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__rosidl_typesupport_fastrtps_cpp.hpp
+[15.859s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__rosidl_typesupport_fastrtps_cpp.hpp
+[15.865s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__rosidl_typesupport_fastrtps_cpp.hpp
+[15.872s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__rosidl_typesupport_introspection_cpp.hpp
+[15.878s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__rosidl_typesupport_introspection_cpp.hpp
+[15.885s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__rosidl_typesupport_introspection_cpp.hpp
+[15.891s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__rosidl_typesupport_introspection_cpp.hpp
+[15.898s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__rosidl_typesupport_introspection_cpp.hpp
+[15.906s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__rosidl_typesupport_introspection_cpp.hpp
+[15.912s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__rosidl_typesupport_introspection_cpp.hpp
+[15.918s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__rosidl_typesupport_introspection_cpp.hpp
+[15.925s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__rosidl_typesupport_introspection_cpp.hpp
+[15.932s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__rosidl_typesupport_introspection_cpp.hpp
+[15.939s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__rosidl_typesupport_introspection_cpp.hpp
+[15.945s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__rosidl_typesupport_introspection_cpp.hpp
+[15.952s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__rosidl_typesupport_introspection_cpp.hpp
+[15.959s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__rosidl_typesupport_introspection_cpp.hpp
+[15.964s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/pythonpath.sh
+[15.971s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/pythonpath.dsv
+[15.977s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[15.984s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[15.990s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[15.997s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[16.005s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/__init__.py
+[16.011s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/_interbotix_xs_msgs_s.ep.rosidl_typesupport_c.c
+[16.018s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/_interbotix_xs_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.024s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/_interbotix_xs_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[16.031s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.038s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.045s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.052s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/libinterbotix_xs_msgs__rosidl_generator_py.so
+[16.058s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/__init__.py
+[16.065s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_arm_joy.py
+[16.072s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_arm_joy_s.c
+[16.078s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_hex_joy.py
+[16.084s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_hex_joy_s.c
+[16.091s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_group_command.py
+[16.097s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_group_command_s.c
+[16.103s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_single_command.py
+[16.109s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_single_command_s.c
+[16.116s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_temps.py
+[16.122s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_temps_s.c
+[16.128s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_trajectory_command.py
+[16.133s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_trajectory_command_s.c
+[16.139s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_locobot_joy.py
+[16.145s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_locobot_joy_s.c
+[16.151s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_turret_joy.py
+[16.157s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_turret_joy_s.c
+[16.163s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/__init__.py
+[16.169s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_motor_gains.py
+[16.176s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_motor_gains_s.c
+[16.182s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_operating_modes.py
+[16.188s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_operating_modes_s.c
+[16.194s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_reboot.py
+[16.200s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_reboot_s.c
+[16.205s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_register_values.py
+[16.212s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_register_values_s.c
+[16.217s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_robot_info.py
+[16.223s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_robot_info_s.c
+[16.229s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_torque_enable.py
+[16.235s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_torque_enable_s.c
+[16.241s] -- Up-to-date symlink: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.241s] -- Up-to-date symlink: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.242s] -- Up-to-date symlink: /home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.242s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/ArmJoy.idl
+[16.247s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/HexJoy.idl
+[16.253s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointGroupCommand.idl
+[16.258s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointSingleCommand.idl
+[16.264s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointTemps.idl
+[16.270s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointTrajectoryCommand.idl
+[16.276s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/LocobotJoy.idl
+[16.281s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/TurretJoy.idl
+[16.286s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/MotorGains.idl
+[16.292s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/OperatingModes.idl
+[16.297s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/Reboot.idl
+[16.303s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RegisterValues.idl
+[16.309s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RobotInfo.idl
+[16.315s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/TorqueEnable.idl
+[16.320s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/ArmJoy.msg
+[16.326s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/HexJoy.msg
+[16.332s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointGroupCommand.msg
+[16.338s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointSingleCommand.msg
+[16.343s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointTemps.msg
+[16.349s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointTrajectoryCommand.msg
+[16.355s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/LocobotJoy.msg
+[16.360s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/TurretJoy.msg
+[16.365s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/MotorGains.srv
+[16.371s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/MotorGains_Request.msg
+[16.377s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/MotorGains_Response.msg
+[16.382s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/OperatingModes.srv
+[16.387s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/OperatingModes_Request.msg
+[16.393s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/OperatingModes_Response.msg
+[16.398s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/Reboot.srv
+[16.404s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/Reboot_Request.msg
+[16.410s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/Reboot_Response.msg
+[16.416s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RegisterValues.srv
+[16.422s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RegisterValues_Request.msg
+[16.428s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RegisterValues_Response.msg
+[16.434s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RobotInfo.srv
+[16.439s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RobotInfo_Request.msg
+[16.445s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RobotInfo_Response.msg
+[16.450s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/TorqueEnable.srv
+[16.455s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/TorqueEnable_Request.msg
+[16.461s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/TorqueEnable_Response.msg
+[16.466s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/ament_index/resource_index/package_run_dependencies/interbotix_xs_msgs
+[16.472s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/ament_index/resource_index/parent_prefix_path/interbotix_xs_msgs
+[16.478s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/ament_prefix_path.sh
+[16.484s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/ament_prefix_path.dsv
+[16.489s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/path.sh
+[16.495s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/path.dsv
+[16.501s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/local_setup.bash
+[16.507s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/local_setup.sh
+[16.512s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/local_setup.zsh
+[16.517s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/local_setup.dsv
+[16.523s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/package.dsv
+[16.528s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/ament_index/resource_index/packages/interbotix_xs_msgs
+[16.534s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/rosidl_cmake-extras.cmake
+[16.540s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.545s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.551s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[16.556s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[16.562s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.567s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.573s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgsConfig.cmake
+[16.579s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgsConfig-version.cmake
+[16.585s] -- Symlinking: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/package.xml
+[16.591s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_generator_c.so
+[16.591s] -- Set runtime path of "/home/rika/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_generator_c.so" to ""
+[16.591s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_fastrtps_c.so
+[16.591s] -- Set runtime path of "/home/rika/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[16.591s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_introspection_c.so
+[16.592s] -- Set runtime path of "/home/rika/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_introspection_c.so" to ""
+[16.592s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_c.so
+[16.592s] -- Set runtime path of "/home/rika/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_c.so" to ""
+[16.592s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.so
+[16.592s] -- Set runtime path of "/home/rika/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.592s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_introspection_cpp.so
+[16.592s] -- Set runtime path of "/home/rika/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[16.592s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_cpp.so
+[16.593s] -- Set runtime path of "/home/rika/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_cpp.so" to ""
+[16.634s] Listing '/home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs'...
+[16.634s] Compiling '/home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/__init__.py'...
+[16.634s] Listing '/home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg'...
+[16.634s] Compiling '/home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/__init__.py'...
+[16.634s] Compiling '/home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_arm_joy.py'...
+[16.634s] Compiling '/home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_hex_joy.py'...
+[16.634s] Compiling '/home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_group_command.py'...
+[16.634s] Compiling '/home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_single_command.py'...
+[16.634s] Compiling '/home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_temps.py'...
+[16.634s] Compiling '/home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_trajectory_command.py'...
+[16.634s] Compiling '/home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_locobot_joy.py'...
+[16.634s] Compiling '/home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_turret_joy.py'...
+[16.634s] Listing '/home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv'...
+[16.634s] Compiling '/home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/__init__.py'...
+[16.634s] Compiling '/home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_motor_gains.py'...
+[16.635s] Compiling '/home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_operating_modes.py'...
+[16.635s] Compiling '/home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_reboot.py'...
+[16.635s] Compiling '/home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_register_values.py'...
+[16.635s] Compiling '/home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_robot_info.py'...
+[16.635s] Compiling '/home/rika/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_torque_enable.py'...
+[16.637s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_generator_py.so
+[16.637s] -- Set runtime path of "/home/rika/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_generator_py.so" to ""
+[16.638s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_generator_cExport.cmake
+[16.638s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_generator_cExport-noconfig.cmake
+[16.638s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[16.638s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.638s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_introspection_cExport.cmake
+[16.638s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.638s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_cExport.cmake
+[16.638s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[16.638s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_generator_cppExport.cmake
+[16.638s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.638s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.638s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[16.638s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.638s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_cppExport.cmake
+[16.638s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[16.638s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_generator_pyExport.cmake
+[16.639s] -- Installing: /home/rika/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_generator_pyExport-noconfig.cmake
+[16.641s] Invoked command in '/home/rika/interbotix_ws/build/interbotix_xs_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rika/interbotix_ws/install/interbotix_xs_modules:/home/rika/interbotix_ws/install/interbotix_perception_modules:/home/rika/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/rika/interbotix_ws/build/interbotix_xs_msgs

@@ -1,0 +1,23 @@
+[0.038s] Invoking command in '/home/rika/interbotix_ws/build/interbotix_xs_msgs': CMAKE_PREFIX_PATH=/home/rika/rika_ws/install/bimanual_pkg:/home/rika/interbotix_ws/install/interbotix_xs_modules:/home/rika/interbotix_ws/install/interbotix_perception_modules:/home/rika/interbotix_ws/install/dual_arm_control:/home/rika/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/rika/interbotix_ws/build/interbotix_xs_msgs -- -j12 -l12
+[0.256s] [  0%] Built target interbotix_xs_msgs__cpp
+[0.257s] [ 12%] Built target interbotix_xs_msgs__rosidl_generator_c
+[0.257s] [ 12%] Built target ament_cmake_python_symlink_interbotix_xs_msgs
+[0.257s] [ 48%] Built target interbotix_xs_msgs__rosidl_typesupport_c
+[0.257s] [ 48%] Built target interbotix_xs_msgs__rosidl_typesupport_cpp
+[0.257s] [ 48%] Built target interbotix_xs_msgs__rosidl_typesupport_introspection_c
+[0.257s] [ 60%] Built target interbotix_xs_msgs__rosidl_typesupport_fastrtps_c
+[0.257s] [ 72%] Built target interbotix_xs_msgs__rosidl_typesupport_introspection_cpp
+[0.257s] [ 84%] Built target interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp
+[0.257s] [ 84%] Built target interbotix_xs_msgs
+[0.257s] [ 85%] Built target interbotix_xs_msgs__py
+[0.257s] [ 96%] Built target interbotix_xs_msgs__rosidl_generator_py
+[0.257s] [ 99%] Built target interbotix_xs_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.257s] [ 99%] Built target interbotix_xs_msgs__rosidl_typesupport_c__pyext
+[0.257s] [100%] Built target interbotix_xs_msgs__rosidl_typesupport_introspection_c__pyext
+[0.290s] running egg_info
+[0.290s] writing interbotix_xs_msgs.egg-info/PKG-INFO
+[0.291s] writing dependency_links to interbotix_xs_msgs.egg-info/dependency_links.txt
+[0.291s] writing top-level names to interbotix_xs_msgs.egg-info/top_level.txt
+[0.294s] reading manifest file 'interbotix_xs_msgs.egg-info/SOURCES.txt'
+[0.294s] writing manifest file 'interbotix_xs_msgs.egg-info/SOURCES.txt'
+[0.351s] [100%] Built target ament_cmake_python_build_interbotix_xs_msgs_egg

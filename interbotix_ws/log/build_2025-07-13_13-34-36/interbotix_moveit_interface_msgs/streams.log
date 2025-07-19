@@ -1,0 +1,23 @@
+[0.230s] Invoking command in '/home/rika/interbotix_ws/build/interbotix_moveit_interface_msgs': CMAKE_PREFIX_PATH=/home/rika/rika_ws/install/bimanual_pkg:/home/rika/interbotix_ws/install/interbotix_xs_modules:/home/rika/interbotix_ws/install/interbotix_perception_modules:/home/rika/interbotix_ws/install/dual_arm_control:/home/rika/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/rika/interbotix_ws/build/interbotix_moveit_interface_msgs -- -j12 -l12
+[0.281s] [  3%] Built target interbotix_moveit_interface_msgs__cpp
+[0.283s] [ 12%] Built target interbotix_moveit_interface_msgs__rosidl_generator_c
+[0.294s] [ 12%] Built target ament_cmake_python_symlink_interbotix_moveit_interface_msgs
+[0.325s] [ 22%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_cpp
+[0.326s] [ 32%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_cpp
+[0.329s] [ 41%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_c
+[0.331s] [ 51%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_c
+[0.333s] [ 61%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_cpp
+[0.340s] [ 70%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_c
+[0.359s] [ 70%] Built target interbotix_moveit_interface_msgs
+[0.380s] [ 74%] Built target interbotix_moveit_interface_msgs__py
+[0.402s] [ 80%] Built target interbotix_moveit_interface_msgs__rosidl_generator_py
+[0.426s] [ 87%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_c__pyext
+[0.427s] [100%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.427s] [100%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_c__pyext
+[0.547s] running egg_info
+[0.548s] writing interbotix_moveit_interface_msgs.egg-info/PKG-INFO
+[0.548s] writing dependency_links to interbotix_moveit_interface_msgs.egg-info/dependency_links.txt
+[0.548s] writing top-level names to interbotix_moveit_interface_msgs.egg-info/top_level.txt
+[0.549s] reading manifest file 'interbotix_moveit_interface_msgs.egg-info/SOURCES.txt'
+[0.550s] writing manifest file 'interbotix_moveit_interface_msgs.egg-info/SOURCES.txt'
+[0.571s] [100%] Built target ament_cmake_python_build_interbotix_moveit_interface_msgs_egg

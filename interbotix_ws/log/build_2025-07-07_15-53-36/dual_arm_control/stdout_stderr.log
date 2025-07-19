@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/dual_arm_control/dual_arm_control.egg-info
+writing ../../build/dual_arm_control/dual_arm_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/dual_arm_control/dual_arm_control.egg-info/dependency_links.txt
+writing entry points to ../../build/dual_arm_control/dual_arm_control.egg-info/entry_points.txt
+writing requirements to ../../build/dual_arm_control/dual_arm_control.egg-info/requires.txt
+writing top-level names to ../../build/dual_arm_control/dual_arm_control.egg-info/top_level.txt
+writing manifest file '../../build/dual_arm_control/dual_arm_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/dual_arm_control/dual_arm_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/dual_arm_control/dual_arm_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rika/interbotix_ws/build/dual_arm_control/build
+creating /home/rika/interbotix_ws/build/dual_arm_control/build/lib
+creating /home/rika/interbotix_ws/build/dual_arm_control/build/lib/dual_arm_control
+copying dual_arm_control/dual_arm_controller.py -> /home/rika/interbotix_ws/build/dual_arm_control/build/lib/dual_arm_control
+copying dual_arm_control/__init__.py -> /home/rika/interbotix_ws/build/dual_arm_control/build/lib/dual_arm_control
+running install
+running install_lib
+creating /home/rika/interbotix_ws/install/dual_arm_control/lib/python3.10/site-packages/dual_arm_control
+copying /home/rika/interbotix_ws/build/dual_arm_control/build/lib/dual_arm_control/dual_arm_controller.py -> /home/rika/interbotix_ws/install/dual_arm_control/lib/python3.10/site-packages/dual_arm_control
+copying /home/rika/interbotix_ws/build/dual_arm_control/build/lib/dual_arm_control/__init__.py -> /home/rika/interbotix_ws/install/dual_arm_control/lib/python3.10/site-packages/dual_arm_control
+byte-compiling /home/rika/interbotix_ws/install/dual_arm_control/lib/python3.10/site-packages/dual_arm_control/dual_arm_controller.py to dual_arm_controller.cpython-310.pyc
+byte-compiling /home/rika/interbotix_ws/install/dual_arm_control/lib/python3.10/site-packages/dual_arm_control/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/rika/interbotix_ws/install/dual_arm_control/share/ament_index
+creating /home/rika/interbotix_ws/install/dual_arm_control/share/ament_index/resource_index
+creating /home/rika/interbotix_ws/install/dual_arm_control/share/ament_index/resource_index/packages
+copying resource/dual_arm_control -> /home/rika/interbotix_ws/install/dual_arm_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/rika/interbotix_ws/install/dual_arm_control/share/dual_arm_control
+running install_egg_info
+Copying ../../build/dual_arm_control/dual_arm_control.egg-info to /home/rika/interbotix_ws/install/dual_arm_control/lib/python3.10/site-packages/dual_arm_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dual_arm_controller script to /home/rika/interbotix_ws/install/dual_arm_control/lib/dual_arm_control
+writing list of installed files to '/home/rika/interbotix_ws/build/dual_arm_control/install.log'

@@ -1,0 +1,25 @@
+[0.412s] Invoking command in '/home/rika/interbotix_ws/src/practice': PYTHONPATH=/home/rika/interbotix_ws/build/practice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/practice build --build-base /home/rika/interbotix_ws/build/practice/build install --record /home/rika/interbotix_ws/build/practice/install.log --single-version-externally-managed install_data
+[0.567s] running egg_info
+[0.567s] writing ../../build/practice/practice.egg-info/PKG-INFO
+[0.568s] writing dependency_links to ../../build/practice/practice.egg-info/dependency_links.txt
+[0.568s] writing entry points to ../../build/practice/practice.egg-info/entry_points.txt
+[0.568s] writing requirements to ../../build/practice/practice.egg-info/requires.txt
+[0.568s] writing top-level names to ../../build/practice/practice.egg-info/top_level.txt
+[0.569s] reading manifest file '../../build/practice/practice.egg-info/SOURCES.txt'
+[0.569s] writing manifest file '../../build/practice/practice.egg-info/SOURCES.txt'
+[0.570s] running build
+[0.570s] running build_py
+[0.570s] copying practice/mirror.py -> /home/rika/interbotix_ws/build/practice/build/lib/practice
+[0.570s] running install
+[0.570s] running install_lib
+[0.571s] copying /home/rika/interbotix_ws/build/practice/build/lib/practice/mirror.py -> /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice
+[0.571s] byte-compiling /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice/mirror.py to mirror.cpython-310.pyc
+[0.572s] running install_data
+[0.572s] running install_egg_info
+[0.573s] removing '/home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice-0.0.0-py3.10.egg-info' (and everything under it)
+[0.573s] Copying ../../build/practice/practice.egg-info to /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice-0.0.0-py3.10.egg-info
+[0.573s] running install_scripts
+[0.587s] Installing home script to /home/rika/interbotix_ws/install/practice/lib/practice
+[0.587s] Installing mirror script to /home/rika/interbotix_ws/install/practice/lib/practice
+[0.587s] writing list of installed files to '/home/rika/interbotix_ws/build/practice/install.log'
+[0.603s] Invoked command in '/home/rika/interbotix_ws/src/practice' returned '0': PYTHONPATH=/home/rika/interbotix_ws/build/practice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/practice build --build-base /home/rika/interbotix_ws/build/practice/build install --record /home/rika/interbotix_ws/build/practice/install.log --single-version-externally-managed install_data

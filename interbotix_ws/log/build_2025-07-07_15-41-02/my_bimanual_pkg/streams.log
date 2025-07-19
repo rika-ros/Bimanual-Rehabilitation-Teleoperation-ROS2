@@ -1,0 +1,24 @@
+[0.723s] Invoking command in '/home/rika/interbotix_ws/build/my_bimanual_pkg': PYTHONPATH=/home/rika/interbotix_ws/build/my_bimanual_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rika/interbotix_ws/install/my_bimanual_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rika/interbotix_ws/build/my_bimanual_pkg/build --no-deps symlink_data
+[0.947s] running develop
+[1.095s] running egg_info
+[1.095s] creating my_bimanual_pkg.egg-info
+[1.095s] writing my_bimanual_pkg.egg-info/PKG-INFO
+[1.096s] writing dependency_links to my_bimanual_pkg.egg-info/dependency_links.txt
+[1.096s] writing entry points to my_bimanual_pkg.egg-info/entry_points.txt
+[1.096s] writing requirements to my_bimanual_pkg.egg-info/requires.txt
+[1.096s] writing top-level names to my_bimanual_pkg.egg-info/top_level.txt
+[1.096s] writing manifest file 'my_bimanual_pkg.egg-info/SOURCES.txt'
+[1.098s] reading manifest file 'my_bimanual_pkg.egg-info/SOURCES.txt'
+[1.098s] writing manifest file 'my_bimanual_pkg.egg-info/SOURCES.txt'
+[1.100s] running build_ext
+[1.100s] Creating /home/rika/interbotix_ws/install/my_bimanual_pkg/lib/python3.10/site-packages/my-bimanual-pkg.egg-link (link to .)
+[1.101s] Installing bimanual_move script to /home/rika/interbotix_ws/install/my_bimanual_pkg/lib/my_bimanual_pkg
+[1.101s] 
+[1.101s] Installed /home/rika/interbotix_ws/build/my_bimanual_pkg
+[1.101s] running symlink_data
+[1.101s] creating /home/rika/interbotix_ws/install/my_bimanual_pkg/share/ament_index
+[1.101s] creating /home/rika/interbotix_ws/install/my_bimanual_pkg/share/ament_index/resource_index
+[1.101s] creating /home/rika/interbotix_ws/install/my_bimanual_pkg/share/ament_index/resource_index/packages
+[1.101s] symbolically linking /home/rika/interbotix_ws/build/my_bimanual_pkg/resource/my_bimanual_pkg -> /home/rika/interbotix_ws/install/my_bimanual_pkg/share/ament_index/resource_index/packages
+[1.101s] symbolically linking /home/rika/interbotix_ws/build/my_bimanual_pkg/package.xml -> /home/rika/interbotix_ws/install/my_bimanual_pkg/share/my_bimanual_pkg
+[1.136s] Invoked command in '/home/rika/interbotix_ws/build/my_bimanual_pkg' returned '0': PYTHONPATH=/home/rika/interbotix_ws/build/my_bimanual_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rika/interbotix_ws/install/my_bimanual_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rika/interbotix_ws/build/my_bimanual_pkg/build --no-deps symlink_data

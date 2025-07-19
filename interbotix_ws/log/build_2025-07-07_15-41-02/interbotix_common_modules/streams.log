@@ -1,0 +1,23 @@
+[0.699s] Invoking command in '/home/rika/interbotix_ws/build/interbotix_common_modules': PYTHONPATH=/home/rika/interbotix_ws/build/interbotix_common_modules/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rika/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rika/interbotix_ws/build/interbotix_common_modules/build --no-deps symlink_data
+[0.920s] running develop
+[1.057s] running egg_info
+[1.057s] creating interbotix_common_modules.egg-info
+[1.057s] writing interbotix_common_modules.egg-info/PKG-INFO
+[1.057s] writing dependency_links to interbotix_common_modules.egg-info/dependency_links.txt
+[1.058s] writing entry points to interbotix_common_modules.egg-info/entry_points.txt
+[1.058s] writing requirements to interbotix_common_modules.egg-info/requires.txt
+[1.058s] writing top-level names to interbotix_common_modules.egg-info/top_level.txt
+[1.058s] writing manifest file 'interbotix_common_modules.egg-info/SOURCES.txt'
+[1.061s] reading manifest file 'interbotix_common_modules.egg-info/SOURCES.txt'
+[1.063s] writing manifest file 'interbotix_common_modules.egg-info/SOURCES.txt'
+[1.064s] running build_ext
+[1.065s] Creating /home/rika/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix-common-modules.egg-link (link to .)
+[1.066s] 
+[1.066s] Installed /home/rika/interbotix_ws/build/interbotix_common_modules
+[1.066s] running symlink_data
+[1.066s] creating /home/rika/interbotix_ws/install/interbotix_common_modules/share/ament_index
+[1.066s] creating /home/rika/interbotix_ws/install/interbotix_common_modules/share/ament_index/resource_index
+[1.066s] creating /home/rika/interbotix_ws/install/interbotix_common_modules/share/ament_index/resource_index/packages
+[1.066s] symbolically linking /home/rika/interbotix_ws/build/interbotix_common_modules/resource/interbotix_common_modules -> /home/rika/interbotix_ws/install/interbotix_common_modules/share/ament_index/resource_index/packages
+[1.067s] symbolically linking /home/rika/interbotix_ws/build/interbotix_common_modules/package.xml -> /home/rika/interbotix_ws/install/interbotix_common_modules/share/interbotix_common_modules
+[1.104s] Invoked command in '/home/rika/interbotix_ws/build/interbotix_common_modules' returned '0': PYTHONPATH=/home/rika/interbotix_ws/build/interbotix_common_modules/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rika/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rika/interbotix_ws/build/interbotix_common_modules/build --no-deps symlink_data

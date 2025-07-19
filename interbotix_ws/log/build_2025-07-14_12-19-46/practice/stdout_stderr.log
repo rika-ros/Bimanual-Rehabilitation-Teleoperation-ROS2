@@ -1,0 +1,53 @@
+running egg_info
+creating ../../build/practice/practice.egg-info
+writing ../../build/practice/practice.egg-info/PKG-INFO
+writing dependency_links to ../../build/practice/practice.egg-info/dependency_links.txt
+writing entry points to ../../build/practice/practice.egg-info/entry_points.txt
+writing requirements to ../../build/practice/practice.egg-info/requires.txt
+writing top-level names to ../../build/practice/practice.egg-info/top_level.txt
+writing manifest file '../../build/practice/practice.egg-info/SOURCES.txt'
+reading manifest file '../../build/practice/practice.egg-info/SOURCES.txt'
+writing manifest file '../../build/practice/practice.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rika/interbotix_ws/build/practice/build
+creating /home/rika/interbotix_ws/build/practice/build/lib
+creating /home/rika/interbotix_ws/build/practice/build/lib/practice
+copying practice/go_left.py -> /home/rika/interbotix_ws/build/practice/build/lib/practice
+copying practice/mirror.py -> /home/rika/interbotix_ws/build/practice/build/lib/practice
+copying practice/go_right2.py -> /home/rika/interbotix_ws/build/practice/build/lib/practice
+copying practice/go_opp.py -> /home/rika/interbotix_ws/build/practice/build/lib/practice
+copying practice/go_right.py -> /home/rika/interbotix_ws/build/practice/build/lib/practice
+copying practice/__init__.py -> /home/rika/interbotix_ws/build/practice/build/lib/practice
+copying practice/go_sleep.py -> /home/rika/interbotix_ws/build/practice/build/lib/practice
+copying practice/go_home.py -> /home/rika/interbotix_ws/build/practice/build/lib/practice
+running install
+running install_lib
+creating /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice
+copying /home/rika/interbotix_ws/build/practice/build/lib/practice/go_left.py -> /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice
+copying /home/rika/interbotix_ws/build/practice/build/lib/practice/mirror.py -> /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice
+copying /home/rika/interbotix_ws/build/practice/build/lib/practice/go_right2.py -> /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice
+copying /home/rika/interbotix_ws/build/practice/build/lib/practice/go_opp.py -> /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice
+copying /home/rika/interbotix_ws/build/practice/build/lib/practice/go_right.py -> /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice
+copying /home/rika/interbotix_ws/build/practice/build/lib/practice/__init__.py -> /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice
+copying /home/rika/interbotix_ws/build/practice/build/lib/practice/go_sleep.py -> /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice
+copying /home/rika/interbotix_ws/build/practice/build/lib/practice/go_home.py -> /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice
+byte-compiling /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice/go_left.py to go_left.cpython-310.pyc
+byte-compiling /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice/mirror.py to mirror.cpython-310.pyc
+byte-compiling /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice/go_right2.py to go_right2.cpython-310.pyc
+byte-compiling /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice/go_opp.py to go_opp.cpython-310.pyc
+byte-compiling /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice/go_right.py to go_right.cpython-310.pyc
+byte-compiling /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice/go_sleep.py to go_sleep.cpython-310.pyc
+byte-compiling /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice/go_home.py to go_home.cpython-310.pyc
+running install_data
+creating /home/rika/interbotix_ws/install/practice/share/ament_index
+creating /home/rika/interbotix_ws/install/practice/share/ament_index/resource_index
+creating /home/rika/interbotix_ws/install/practice/share/ament_index/resource_index/packages
+copying resource/practice -> /home/rika/interbotix_ws/install/practice/share/ament_index/resource_index/packages
+copying package.xml -> /home/rika/interbotix_ws/install/practice/share/practice
+running install_egg_info
+Copying ../../build/practice/practice.egg-info to /home/rika/interbotix_ws/install/practice/lib/python3.10/site-packages/practice-0.0.0-py3.10.egg-info
+running install_scripts
+Installing home script to /home/rika/interbotix_ws/install/practice/lib/practice
+writing list of installed files to '/home/rika/interbotix_ws/build/practice/install.log'

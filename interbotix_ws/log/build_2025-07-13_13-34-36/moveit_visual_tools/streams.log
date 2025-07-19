@@ -1,0 +1,3 @@
+[0.229s] Invoking command in '/home/rika/interbotix_ws/build/moveit_visual_tools': CMAKE_PREFIX_PATH=/home/rika/rika_ws/install/bimanual_pkg:/home/rika/interbotix_ws/install/interbotix_xs_modules:/home/rika/interbotix_ws/install/interbotix_perception_modules:/home/rika/interbotix_ws/install/dual_arm_control:/home/rika/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/rika/interbotix_ws/build/moveit_visual_tools -- -j12 -l12
+[0.330s] [ 66%] Built target moveit_visual_tools
+[0.362s] [100%] Built target moveit_visual_tools_demo
